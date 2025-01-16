@@ -1,0 +1,6 @@
+services:
+  tests:
+    build: .
+    tty: true
+    volumes:
+      - .:/usr/src/app
